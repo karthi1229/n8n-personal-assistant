@@ -1,0 +1,56 @@
+:root {
+  /* Dark Theme */
+  --bg-dark: #0d1024;
+  --card-dark: #171a31;
+  --bubble-me-dark: #2a2f55;
+  --bubble-bot-dark: #1d2142;
+  --text-primary-dark: #eef0ff;
+  --text-muted-dark: #a9aec7;
+  --border-dark: rgba(255, 255, 255, .08);
+
+  /* Light Theme */
+  --bg-light: #ffffff;
+  --card-light: #f0f4f8;
+  --bubble-me-light: #e2e8f0;
+  --bubble-bot-light: #ffffff;
+  --text-primary-light: #1f2937;
+  --text-muted-light: #6b7280;
+  --border-light: rgba(0, 0, 0, .1);
+
+  /* Shared Colors */
+  --accent: #7c5cff;
+  --accent-hover: #6a4bff;
+  --danger: #ff5c7c;
+  --success: #3ecf8e;
+
+  /* Toast Colors */
+  --toast-bg: #28304e;
+  --toast-success-bg: #3ecf8e;
+  --toast-error-bg: #ff5c7c;
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-primary-dark);
+  --bg-color: var(--bg-dark);
+  --card-color: var(--card-dark);
+  --text-primary: var(--text-primary-dark);
+  --text-muted: var(--text-muted-dark);
+  --border-color: var(--border-dark);
+  --bubble-me: var(--bubble-me-dark);
+  --bubble-bot: var(--bubble-bot-dark);
+  --icon-filter: invert(100%);
+}
+
+body.light {
+  background-color: var(--bg-light);
+  color: var(--text-primary-light);
+  --bg-color: var(--bg-light);
+  --card-color: var(--card-light);
+  --text-primary: var(--text-primary-light);
+  --text-muted: var(--text-muted-light);
+  --border-color: var(--border-light);
+  --bubble-me: var(--bubble-me-light);
+  --bubble-bot: var(--bubble-bot-light);
+  --icon-filter: none;
+}
